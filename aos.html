@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>AOS 연습</title>
+</head>
+<body>
+<div class="container">
+    <section class="sec1">
+    <div class="box box1" data-aos="fade-down-right" data-aos-once="fault" >페이드 다운</div>
+    <div class="box box2" data-aos="fade-up-left" >페이드 업</div>
+    </section>
+    <section class="sec2">
+    <div class="box box3" data-aos="fade-right" data-aos-easing="ease-out-cubic">페이드 오른쪽</div>
+    <div class="box box4" data-aos="fade-left">페이드 왼쪽</div>
+    </section>
+    <section class="sec3">
+    <div class="box box1" data-aos="zoom-in" data-aos-delay="1000"> 줌 인</div>
+    <div class="box box2" data-aos="zoom-out" >줌 아웃</div>
+    </section>
+    <section class="sec4">
+    <div class="box box2" data-aos="flip-left">플립 왼쪽</div>
+    <div class="box box1" data-aos="flip-right">플립 오른쪽</div>
+    </section>
+
+</div>
+    <script>
+        AOS.init({
+            duration:2000
+        })
+    </script>
+</body>
+</html> 
